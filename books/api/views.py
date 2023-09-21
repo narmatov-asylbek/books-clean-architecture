@@ -14,7 +14,7 @@ from drf_yasg import openapi
 from books.exceptions import AlreadyExistsException
 
 from books.repos.book import BookRepository
-from books.serializers import BookDetailSerializer, BookReviewCreateSerializer, BookSerializer, FavouriteCreateSerializer
+from books.api.serializers import BookDetailSerializer, BookReviewCreateSerializer, BookSerializer, FavouriteCreateSerializer
 from books.use_cases.books import add_to_favourite_use_case, get_book_use_case, list_books_use_case, create_review_use_case
 from books.dtos.book import BookReview
 
