@@ -28,7 +28,11 @@ export SECRET_KEY=your-super-mega-secret-key
 ``` shell
 python manage.py migrate
 ```
-6. Go to the documentation in `localhost:8000/swagger/`
+
+6. Run server and visit the documentation in `localhost:8000/swagger/`
+```shell
+python manage.py runserver
+```
 
 # Usage
 
