@@ -50,3 +50,9 @@ Query parameters:
 `/api/v1/books/favourites` Add book to the favourites
 
 `/api/v1/books/reviews` Create a review for a book.
+
+
+# Architecture
+- Repositories. Interface over data storage. The only way to access the database.
+- Use cases. Contains the main logic of the application
+- dtos. Data Transfer objects. Used to pass data from one layer to another.
